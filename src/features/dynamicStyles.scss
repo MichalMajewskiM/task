@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+$light-gray: #F3F4F9 !default;
+$main-white: #FFFFFF !default;
+$standard-blue: #1952E1 !default;
+
+$theme-colors: () !default;
+$theme_colors: map-merge(
+    (
+        'bg-color': $light-gray,
+        'main-white': $main-white,
+        'chip-color': $standard-blue,
+    ),
+    $theme_colors
+);
